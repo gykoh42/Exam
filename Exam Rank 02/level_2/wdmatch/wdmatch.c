@@ -7,6 +7,7 @@ int ft_strlen(char *str)
         i++;
     return (i);
 }
+
 int main(int argc, char **argv)
 {
     if (argc == 3)
