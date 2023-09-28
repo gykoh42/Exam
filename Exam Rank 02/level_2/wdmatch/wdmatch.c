@@ -7,12 +7,14 @@ int ft_strlen(char *str)
         i++;
     return (i);
 }
+#include <stdio.h>
 
 int main(int argc, char **argv)
 {
     if (argc == 3)
     {
-        int tmp_idx1, tmp_idx2 = 0;
+        int tmp_idx1 = 0;
+        int tmp_idx2 = 0;
         while (argv[2][tmp_idx2] != '\0')
         {
             if (argv[1][tmp_idx1] == argv[2][tmp_idx2])
